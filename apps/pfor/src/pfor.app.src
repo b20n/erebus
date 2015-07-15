@@ -1,0 +1,9 @@
+{application, pfor, [
+    {description, "PFOR"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.

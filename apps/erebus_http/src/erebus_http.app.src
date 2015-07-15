@@ -1,0 +1,12 @@
+{application, erebus_http, [
+    {description, "erebus http handlers"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {mod, {erebus_http_app, []}},
+    {env, []}
+]}.

@@ -1,0 +1,11 @@
+{application, erebus, [
+    {description, "erebus"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, { erebus_app, []}},
+    {env, []}
+]}.

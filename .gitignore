@@ -1,0 +1,11 @@
+apps/*/ebin
+deps
+erl_crash.dump
+apps/*/.eunit
+erln8.config
+callgrind.*
+error.log*
+console.log*
+*.o
+*.so
+NOTES.org
