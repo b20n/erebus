@@ -1,0 +1,9 @@
+{application, geras, [
+    {description, "Geras"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.
