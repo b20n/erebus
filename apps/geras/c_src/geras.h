@@ -45,4 +45,17 @@ typedef struct {
     GerasDiskPartition *disk;
 } Geras;
 
+typedef struct {
+    int64_t *read;
+    int64_t from;
+    int64_t until;
+    int dt;
+    int size;
+} GerasPartitionRead;
+
+typedef struct {
+    GerasPartitionRead *reads;
+    int size;
+} GerasRead;
+
 #endif
